@@ -1,8 +1,13 @@
-# React + Vite
+# React UseState Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a simple React application demonstrating the use of the `useState` hook. The app features a button and a number display. Each time the user clicks the button, the displayed number increments by 1.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Button**: Click this button to trigger an update to the displayed number.
+- **Number Display**: Shows the current count, which increases by 1 with each button click.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **useState**: React hook for managing state in functional components.
